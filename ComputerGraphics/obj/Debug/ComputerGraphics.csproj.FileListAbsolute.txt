@@ -1,0 +1,9 @@
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\bin\Debug\ComputerGraphics.exe.config
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\bin\Debug\ComputerGraphics.exe
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\bin\Debug\ComputerGraphics.pdb
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.csprojResolveAssemblyReference.cache
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.Form1.resources
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.Properties.Resources.resources
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.csproj.GenerateResource.Cache
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.exe
+D:\AA学习\计算机图形学\大作业\ComputerGraphics\ComputerGraphics\obj\Debug\ComputerGraphics.pdb
