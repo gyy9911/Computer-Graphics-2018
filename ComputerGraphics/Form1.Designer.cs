@@ -46,10 +46,12 @@
             this.Button_ellip = new System.Windows.Forms.ToolStripButton();
             this.Button_poly = new System.Windows.Forms.ToolStripButton();
             this.Button_drawBezier = new System.Windows.Forms.ToolStripButton();
+            this.Button_fill = new System.Windows.Forms.ToolStripButton();
             this.Button_move = new System.Windows.Forms.ToolStripButton();
             this.Button_resize = new System.Windows.Forms.ToolStripButton();
             this.Button_rotation = new System.Windows.Forms.ToolStripButton();
-            this.Button_fill = new System.Windows.Forms.ToolStripButton();
+            this.Button_clip = new System.Windows.Forms.ToolStripButton();
+            this.Button_3D = new System.Windows.Forms.ToolStripButton();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -174,7 +176,9 @@
             this.Button_fill,
             this.Button_move,
             this.Button_resize,
-            this.Button_rotation});
+            this.Button_rotation,
+            this.Button_clip,
+            this.Button_3D});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(958, 42);
@@ -233,6 +237,16 @@
             this.Button_drawBezier.Text = "绘制Bezier曲线";
             this.Button_drawBezier.Click += new System.EventHandler(this.Button_Bezier_Click);
             // 
+            // Button_fill
+            // 
+            this.Button_fill.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Button_fill.Image = ((System.Drawing.Image)(resources.GetObject("Button_fill.Image")));
+            this.Button_fill.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Button_fill.Name = "Button_fill";
+            this.Button_fill.Size = new System.Drawing.Size(24, 39);
+            this.Button_fill.Text = "填充";
+            this.Button_fill.Click += new System.EventHandler(this.Button_fill_Click);
+            // 
             // Button_move
             // 
             this.Button_move.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -263,15 +277,25 @@
             this.Button_rotation.Text = "旋转";
             this.Button_rotation.Click += new System.EventHandler(this.Button_rotation_Click);
             // 
-            // Button_fill
+            // Button_clip
             // 
-            this.Button_fill.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Button_fill.Image = ((System.Drawing.Image)(resources.GetObject("Button_fill.Image")));
-            this.Button_fill.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Button_fill.Name = "Button_fill";
-            this.Button_fill.Size = new System.Drawing.Size(24, 39);
-            this.Button_fill.Text = "填充";
-            this.Button_fill.Click += new System.EventHandler(this.Button_fill_Click);
+            this.Button_clip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Button_clip.Image = ((System.Drawing.Image)(resources.GetObject("Button_clip.Image")));
+            this.Button_clip.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Button_clip.Name = "Button_clip";
+            this.Button_clip.Size = new System.Drawing.Size(24, 39);
+            this.Button_clip.Text = "裁剪";
+            this.Button_clip.Click += new System.EventHandler(this.Button_clip_Click);
+            // 
+            // Button_3D
+            // 
+            this.Button_3D.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Button_3D.Image = ((System.Drawing.Image)(resources.GetObject("Button_3D.Image")));
+            this.Button_3D.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Button_3D.Name = "Button_3D";
+            this.Button_3D.Size = new System.Drawing.Size(24, 39);
+            this.Button_3D.Text = "3D图形";
+            this.Button_3D.Click += new System.EventHandler(this.Button_3D_Click);
             // 
             // button1
             // 
@@ -337,6 +361,8 @@
         private System.Windows.Forms.ToolStripButton Button_fill;
         private System.Windows.Forms.ToolStripButton Button_drawBezier;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripButton Button_clip;
+        private System.Windows.Forms.ToolStripButton Button_3D;
     }
 }
 
